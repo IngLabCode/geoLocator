@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: geoLocator
+server:
+  port: 8080
+
+url:
+  template: "https://ipapi.co/%s/json/"
+  #  template: "https://freeipapi.com/api/json/%s"
+
+logging:
+  level:
+    root: info
